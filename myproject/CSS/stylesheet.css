@@ -1,0 +1,216 @@
+h1,h2,h3,h6,p,a {
+	font-family:Calibri;
+	margin:1px;
+}
+
+.orangebutton{
+	background-color: orange;	/*used static color for unsupported browser*/
+	background-image: linear-gradient(to right, orange, tomato);	/*used gradient effect */
+	color: white;				/*set text color to white*/
+	border-radius: 40px;			/*makes the button curve shaped*/
+	border: 0px;					/*no */
+	padding-left: 6%;
+	padding-right: 6%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	font-size: 1.5vw;
+	text-decoration: none; /*to remove the underline from text */
+	box-shadow: 0.5px 0.5px 20px orange;	/*used orange shed */
+	
+}
+
+.row{
+	width: 100%;
+	min-height: 300px;
+	margin: 0 auto;
+	display: flex;
+	/*border:5px solid green;*/
+}
+
+.row1{
+	margin-left: 3%;
+	margin-right: 3%;
+	min-height: 400px;
+	display:flex;
+	/*border:5px solid green;*/
+}
+
+.row3{
+	flex:50%;
+	margin: auto; 
+	width: 90%; 
+	text-align:center;
+}
+		
+.column{
+	flex: 50%;
+	/*border:5px solid green;*/
+}
+
+
+
+.column4{
+	flex: 33%;
+	/*border: 3px solid tomato;*/
+	box-shadow: 5px 5px 20px lightslategrey;
+	border-radius: 30px;
+
+}
+
+.status{
+	
+	display: flex;
+	margin: 7%;
+	/*border: 3px solid tomato;*/
+	box-shadow: 0.5px 0.5px 20px lightslategrey;
+	border-radius: 9px;
+
+	text-align: center; 
+	margin-top:20%; 
+	margin-bottom: 20%;
+}
+
+.footer{
+	background-color: black; 
+	border: 5px solid black; 
+	text-align: center; 
+	padding-top: 4%; 
+	padding-bottom: 7%;
+}
+
+#customcolumn1{
+	margin: auto; 
+	width: 80%;
+}
+
+#customheader1{
+	margin-left: 8%; 
+	font-size: 4vw;		/*using resizable font here */
+}
+
+
+#customparagraph1{
+	margin-left: 8%; 
+	margin-top: 4%;
+	margin-bottom: 8%; 
+	font-size: 1.5vw;
+}
+
+#custombutton1{
+	margin-left: 8%; 
+	margin-top: 5%; 
+	margin-bottom: 10%;
+}
+
+#customimage1{
+	float:right; 
+	margin-right: 3%; 
+	margin-top: 2%; 
+	max-width: 72%; 
+	max-height: 72%;
+}
+
+#custombackground1{ 
+	background-repeat: no-repeat; 
+	background-size: 100% 100%; 
+	padding-top: 5%; 
+	margin-top: 10%;
+}
+
+#customdiv1{
+	margin:auto;
+}
+
+#customimage2{
+	margin-left: 20%; 
+	margin-right: 20%; 
+	max-width: 60%; 
+	max-height: 60%;
+}
+
+#customcolumn2{
+	margin-top: 10%; 
+	margin-bottom: 5%; 
+	width: 80%;
+}
+
+#customheader2{
+	margin-left: 8%; 
+	margin-top: 8%;
+	font-size: 3vw;
+}
+
+#customparagraph2{
+	margin-left: 8%; 
+	margin-top: 5%; 
+	margin-bottom: 10%; 
+	margin-right: 7%; 
+	font-size: 1.5vw;
+}
+
+#custombutton2{
+	margin-left: 8%;
+}
+
+#customheader3{
+	margin-left: 6%; 
+	margin-top: 6%; 
+	margin-right: 6%; 
+	font-size: 3vw;
+}
+
+#customparagraph3{
+	padding-top: 40px; 
+	padding-right: 20%; 
+	padding-left: 20%;  
+	font-size: 1.5vw;
+}
+
+#customcolumn4{
+	margin-left: 7%;
+	margin-right: 3%; 
+	margin-top: 10%;
+}
+
+#customimg456{
+	 max-width: 90%; 
+	 max-height: 90%; 
+	 margin: 5%;
+}
+
+#customheader456{
+	margin-left: 5%; 
+	margin-top: 5%; 
+	margin-right: 50px; 
+	margin-bottom: 2%; 
+	font-size: 2.5vw;
+}
+
+#customparagraph456{
+	padding-top: 5%; 
+	padding-right: 5%; 
+	padding-left: 5%; 
+	padding-bottom: 10%; 
+	font-size: 1.2vw;
+}
+
+#customcolumn5{
+	margin-right: 3%; 
+	margin-top: 10%;
+}
+
+#customcolumn6{
+	margin-right: 7%; 
+	margin-top: 10%;
+}
+
+#customh1{
+	text-align: center; 
+	font-size: 3vw;
+}
+
+#customp{
+	color:white; 
+	padding-top: 2.5%; 
+	font-size: 1.5vw;
+}
