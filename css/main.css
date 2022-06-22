@@ -1,0 +1,648 @@
+::-webkit-scrollbar
+{
+	
+	width: 12px;
+}
+
+
+::-webkit-scrollbar-thumb
+{
+	background: #8ecae6;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+	background: linear-gradient(#8ecae6,whitesmoke);
+	border-radius: 10px;
+}
+
+
+.navbar-dark .navbar-toggler {
+    color: #8ecae6;;
+    border-color: #8ecae6;
+}
+
+
+.navbar-dark{
+	background-color: #8ecae6;
+	color: #8ecae6;
+}
+
+.btn-custom-cyan{
+	background-color: transparent;
+	color: #8ecae6;
+	border: #8ecae6 solid 2px;
+}
+.btn-custom-cyan:hover{
+	background-color: #8ecae6;
+	color: #023047;
+	border: #8ecae6 solid 2px;
+}
+.btn-custom-blue{
+	background-color: transparent;
+	color: #023047;
+	border: #023047 solid 2px;
+}
+.btn-custom-blue:hover{
+	background-color: #023047;
+	color: #8ecae6;
+	border: #023047 solid 2px;
+}
+
+/*---------------BLINK EFFECT------*/
+.blink {
+  -webkit-animation: 1s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  animation: 1s linear infinite condemned_blink_effect;
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+/*----------------------------------*/
+
+
+
+.rdus{
+	border-radius: 40px;
+}
+
+button.round{
+	border-radius: 40vw;
+}
+
+img.smallpic{
+	max-width: 10%;
+	height: auto;
+}
+
+div.left2{
+	float:left;
+   width:20%;
+   text-align:center;
+}
+
+div.right8{
+	width:80%;
+   float:right;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: whitesmoke;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: whitesmoke;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.highlighted:hover{
+	background-color: gold;
+	border-radius: 30px;
+}
+.highlighteds:hover{
+	background-color: whitesmoke;
+	border-radius: 30px;
+}
+
+.brdr{
+	border: gold solid 2px ;
+
+}
+.cntr{
+	margin-top: 5% ;
+	margin-bottom: 15%;
+	max-width: 35%;
+	max-height: 35%;
+	
+}
+
+.cstmimg{
+	width: 100%;
+	height: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: initial;
+}
+.boxhover{
+	border: transparent solid 25px;
+}
+
+.goldbox:hover{
+	border: gold solid 2px;
+}
+.boxhover:hover{
+	border: transparent solid 5px;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.hover-underline-animation-navbar {
+  display: inline-block;
+  position: relative;
+}
+
+.hover-underline-animation-navbar:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #8ecae6;;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+
+  color: #FCD900;
+}
+
+.hover-underline-animation-navbar:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
+}
+
+
+
+.nav-tabs .nav-item .nav-link.active{
+	margin: 4%;
+	background-color: gold;
+	color: #023047;
+	border: transparent;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.nav-tabs .nav-item .nav-link{
+	margin: 6%;
+	background-color: transparent;
+	border: gold solid 2px;
+	color: white;
+	text-align: center;
+}
+.nav-tabs .nav-item .nav-link:hover{
+	margin: 4%;
+	background-color: #f0f3bd;
+	color: #023047;
+	border: transparent;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.hover-me{
+	padding: 3%; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+	margin-bottom: 5%; 
+	border: #fdfcdc solid 2px; 
+	color:#fdfcdc;
+}
+
+.hover-me:hover{
+	border: gold solid 2px;
+	color:gold;
+}
+
+.skill-card{
+	text-align: center;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	width: 20%;
+	color: #264653;
+	border: #264653 solid 2px;
+	border-radius: 5%;
+	transition: 0.2s;
+}
+
+.skill-card:hover{
+	background-color: #006d77;
+	text-align: center;
+	width: 20%;
+	color: #ffffff;
+	font-weight: bolder;
+	border: #ffffff solid 2px;
+	transform: scale(1.05);
+}
+
+/* The actual timeline (the vertical ruler) */
+.custom-timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.custom-timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.custom-container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.custom-container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid gold;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.custom-left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.custom-right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.custom-left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #8ecae6;
+}
+
+
+/* Add arrows to the right container (pointing left) */
+.custom-right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #8ecae6 transparent transparent;
+}
+
+
+/* Fix the circle for containers on the right side */
+.custom-right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.custom-content {
+  padding: 20px 30px;
+  background-color: #8ecae6;
+  position: relative;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+.custom-content:hover {
+	color: #ffffff;
+	border: #8ecae6 solid 2px;
+  background-color: #264653;
+  transform: scale(1.0);
+  
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .custom-timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .custom-container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .custom-container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+
+  }
+
+  /* Make sure all circles are at the same spot */
+  .custom-left::after, .custom-right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .custom-right {
+  left: 0%;
+  }
+}
+
+
+.custom-flip-box {
+  background-color: transparent;
+  width: 60vw;
+  height: 15vw;
+  perspective: 1000px;
+}
+
+.custom-flip-box-inner {
+  position: relative;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  margin: auto;
+}
+
+.custom-flip-box:hover .custom-flip-box-inner {
+  transform: rotateX(180deg);
+}
+
+.custom-flip-box-front, .custom-flip-box-back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.custom-flip-box-front {
+	border-radius: 15px;
+  background-color: transparent;
+  font-weight: bolder;
+  border: #264653 solid 5px;
+  color: #264653;
+  padding: 5%;
+}
+
+.custom-flip-box-back {
+	border-radius: 15px;
+  background-color: transparent;
+  font-weight: bolder;
+  border: #006d77 solid 5px;
+  color: #006d77;
+  transform: rotateX(180deg);
+  padding: 5%;
+}
+
+/*===================================*/
+.custom-flip-box2 {
+  background-color: transparent;
+  width: 45vw;
+  height: 45vw;
+  perspective: 1000px;
+}
+
+.custom-flip-box-inner2 {
+  position: relative;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  margin: auto;
+}
+
+.custom-flip-box2:hover .custom-flip-box-inner2 {
+  transform: rotateY(180deg);
+}
+
+.custom-flip-box-front2, .custom-flip-box-back2 {
+	position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.custom-flip-box-front2 {
+	width: 45vw;
+  height: 45vw;
+	border-radius: 15px;
+  background-color: transparent;
+  font-weight: bolder;
+  border: #264653 solid 5px;
+  color: #264653;
+  padding: 5%;
+}
+
+.custom-flip-box-back2 {
+	width: 45vw;
+  height: 45vw;
+	border-radius: 15px;
+  background-color: transparent;
+  font-weight: bolder;
+  border: #006d77 solid 5px;
+  color: #006d77;
+  transform: rotateY(180deg);
+  padding: 5%;
+}
+
+
+/* Centered text */
+.custom-container2 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.custom-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  width: 90%;
+  height: 96%;
+  border: white solid 6px;
+
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: transparent;
+  border-radius: 40px;
+  transition: 0.2s;
+}
+
+.custom-centered:hover{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  border: #112B3C solid 6px;
+
+  font-weight: bolder;
+
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #112B3C;
+  border-radius: 40px;
+}
+
+.cappl{
+  border: 2px solid transparent;
+  border-radius: 40px;
+  margin: auto;
+  width: 92%;
+  height: 90%;
+  padding: 42%;
+  background-image: url("../images/capp.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.javapp{
+  border: 2px solid transparent;
+  border-radius: 40px;
+  margin: auto;
+  width: 92%;
+  height: 90%;
+  padding: 42%;
+  background-image: url("../images/javaapp.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.andapp{
+  border: 2px solid transparent;
+  border-radius: 40px;
+  margin: auto;
+  width: 92%;
+  height: 90%;
+  padding: 42%;
+  background-image: url("../images/apk.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.htapp{
+  border: 2px solid transparent;
+  border-radius: 40px;
+  margin: auto;
+  width: 92%;
+  height: 90%;
+  padding: 42%;
+  background-image: url("../images/htmlapp.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
+/*--------------------------------*/
+ul.socialIcons {
+  padding: 0;
+  text-align: center;
+}
+
+.socialIcons li {
+  background-color: yellow;
+  list-style: none;
+  display: inline-block;
+  margin: 4px;
+  border-radius: 2em;
+  overflow: hidden;
+}
+
+.socialIcons li a {
+  display: block;
+  min-width: 1.28571429em;
+  max-width: 1.28571429em;
+  height: 1.28571429em;
+  white-space: nowrap;
+  line-height: 1.5em; /*it's working only when you write text with icon*/
+  transition: 0.5s;
+  text-decoration: none;
+  font-family: arial;
+  color: #fff;
+}
+
+.socialIcons li i {
+  margin-right: 0.5em;
+}
+
+.socialIcons li:hover a {
+  max-width: 200px;
+  padding-right: 1em;
+}
+
+.socialIcons .facebook {
+  background-color: #3b5998;
+  box-shadow: 0 0 16px #3b5998;
+}
+
+.socialIcons .twitter {
+  background-color: #00aced;
+  box-shadow: 0 0 16px #00aced;
+}
+
+.socialIcons .instagram {
+  background-color: #cd486b;
+  box-shadow: 0 0 16px #cd486b;
+}
+
+.socialIcons .pinterest {
+  background-color: #c92228;
+  box-shadow: 0 0 16px #c92228;
+}
+
+.socialIcons .steam {
+  background-color: #666666;
+  box-shadow: 0 0 16px #666666;
+}
