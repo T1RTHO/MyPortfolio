@@ -7,4 +7,4 @@ Here I used-
   *Bootstrap5
   *Java-Script
 
-It took me almost 2 days to build this portfolio as mos of the elements were new to me.
+It took me almost 2 days to build this portfolio as most of the elements were new to me.
